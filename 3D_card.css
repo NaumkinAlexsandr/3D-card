@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: rgb(240, 239, 239);
 }
 
 section {
@@ -66,7 +67,7 @@ section {
 }
 
 .front {
-  background-color: rgb(240, 239, 239);
+  background-color: white;
   border: 1px solid silver;
 }
 
@@ -115,7 +116,7 @@ section {
 }
 
 .front_two {
-  background-color: rgb(240, 239, 239);
+  background-color: white;
   border: 1px solid silver;
 }
 
@@ -154,7 +155,7 @@ section {
   height: 300px;
   width: 300px;
   border-radius: 10px;
-  background-color: rgb(240, 239, 239);
+  background-color: white;
   border: 1px solid silver;
   transition: transform 0.2s;
 }
