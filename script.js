@@ -1,23 +1,23 @@
-const cards = document.querySelectorAll('.card_two');
+const cards = document.querySelectorAll(".card_three");
 
 for (let i = 0; i < cards.length; i++) {
   const card = cards[i];
-  card.addEventListener('mousemove', startRotate);
-  card.addEventListener('mouseout', stopRotate);
+  card.addEventListener("mousemove", startRotate);
+  card.addEventListener("mouseout", stopRotate);
 }
 
 function startRotate(event) {
-  const cardItem = this.querySelector('.card-item');
+  const cardItem = this.querySelector(".card-item");
   const halfHeight = cardItem.offsetHeight / 2;
   const halfWidth = cardItem.offsetWidth / 2;
   cardItem.style.transform =
-    'rotateX(' +
+    "rotateX(" +
     -(event.offsetY - halfHeight) / 5 +
-    'deg) rotateY(' +
+    "deg) rotateY(" +
     (event.offsetX - halfWidth) / 5 +
-    'deg)';
+    "deg)";
 }
 function stopRotate(event) {
-  const cardItem = this.querySelector('.card-item');
-  cardItem.style.transform = 'rotate(0';
+  const cardItem = this.querySelector(".card-item");
+  cardItem.style.transform = "rotate(0";
 }
