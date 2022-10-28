@@ -8,12 +8,11 @@ body {
   font-family: sans-serif;
 }
 
-/*----first----*/
-.first {
-  width: 100%;
-  height: 40vh;
-  margin-bottom: 20px;
+section {
+  margin: 20px 0;
 }
+
+/*----first----*/
 
 .wrap {
   position: relative;
@@ -78,11 +77,6 @@ body {
 }
 
 /*----second----*/
-.second {
-  width: 100%;
-  height: 40vh;
-  margin-bottom: 20px;
-}
 
 .wrap_two {
   position: relative;
@@ -139,11 +133,6 @@ body {
 }
 
 /*----third----*/
-.third {
-  width: 100%;
-  border-radius: 10px;
-  height: 40vh;
-}
 
 .wrap_three {
   width: 100%;
